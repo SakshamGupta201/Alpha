@@ -2,14 +2,13 @@ package Variables_6;
 
 import java.util.Scanner;
 
-public class Main {
+public class AreaoOfCircle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        int product = a * b;
-        System.out.println(product);
+        float radius = sc.nextInt();
+        double area = Math.PI * Math.pow(radius, 2);
+        System.out.println("Area = " + area);
         sc.close();
     }
 }
+
